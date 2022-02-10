@@ -2,9 +2,9 @@ package main
 
 import (
 	"bufio"
-	"github.com/lc/gau/v2/pkg/output"
-	"github.com/lc/gau/v2/runner"
-	"github.com/lc/gau/v2/runner/flags"
+	"github.com/dmatrixx/gau/v2/pkg/output"
+	"github.com/dmatrixx/gau/v2/runner"
+	"github.com/dmatrixx/gau/v2/runner/flags"
 	log "github.com/sirupsen/logrus"
 	"io"
 	"os"
