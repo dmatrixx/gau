@@ -97,10 +97,10 @@ paginate:
 
 func (c *Client) formatURL(domain string, after string) string {
 	if after != "" {
-		return fmt.Sprintf(_BaseURL+"api/v1/search/?q=domain:%s&size=100", domain) + "&search_after=" + after
+		return fmt.Sprintf(_BaseURL+"api/v1/search/?q=:%s&size=100", domain) + "&search_after=" + after
 	}
 
-	return fmt.Sprintf(_BaseURL+"api/v1/search/?q=domain:%s&size=100", domain)
+	return fmt.Sprintf(_BaseURL+"api/v1/search/?q=:%s&size=100", domain)
 }
 
 func setBaseURL(baseURL string) {
